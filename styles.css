@@ -1,0 +1,139 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+
+@font-face {
+    font-family: GothamPro;
+    src: url(GothamPro-Medium.eot);
+    src: url(gothamFont/GothamPro-Medium.woff2) format("woff2"),url(gothamFont/GothamPro-Medium.woff) 
+    format("woff"),url(gothamFont/GothamPro-Medium.ttf) format("truetype"),url(gothamFont/GothamPro-Medium.svg#GothamPro-Medium) format("svg"),
+    url(gothamFont/GothamPro-Medium.eot?#iefix) format("embedded-opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: url('images/blueCursor.svg'), auto;	
+    font-family: 'GothamPro' !important;
+    background: #e8eafc !important;
+    color: #232323 !important;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: center;
+    position: relative;
+    /* border: 1px solid white; */
+}
+
+#nameSection{
+    /* background-image: url(images/version1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 250px; */
+    border: 1px solid white;
+}
+
+#nameSection p{
+    position: absolute;
+    bottom: 0;
+    font-size: 6em;
+    color: #ffffff;
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.social-icon {
+    display: inline-block; 
+    margin: 0 10px;
+}
+
+.fa {
+    color: #232323;
+    font-size: 20px !important;
+    margin: 5px;
+}
+
+.fa:hover{
+    color: #3f6c96;
+}
+
+.link-list{
+    margin: 0;
+    padding: 0;
+}
+
+.link-list li{
+    float: left;
+}
+
+.link-list li a{
+    display: block;
+    text-align: center;
+    padding-right: 30px;
+    text-decoration: none;
+  }
+
+.links{
+    list-style: none;
+    font-size: 20px;
+}
+
+.link{
+    color: #364b9e;
+}
+
+.link:hover{
+    background: #c5d9eb;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+#imageSection{
+    margin-top: -50px;
+}
+
+#imageSection .image{
+    float: right; 
+    width: 500px;
+}
+
+.wrapper {
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #imageSection {
+      margin-top: 10px;
+    }
+
+    #imageSection .image{
+        width: 250px;
+    }
+
+    .gauge{
+        width: 250px;
+    }
+  }
+
+#skillSection p{
+    font-size: 16px;
+}

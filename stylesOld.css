@@ -1,0 +1,200 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+
+@font-face {
+    font-family: GothamPro;
+    src: url(GothamPro-Medium.eot);
+    src: url(gothamFont/GothamPro-Medium.woff2) format("woff2"),url(gothamFont/GothamPro-Medium.woff) 
+    format("woff"),url(gothamFont/GothamPro-Medium.ttf) format("truetype"),url(gothamFont/GothamPro-Medium.svg#GothamPro-Medium) format("svg"),
+    url(gothamFont/GothamPro-Medium.eot?#iefix) format("embedded-opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: url('images/blueCursor.svg'), auto;	
+    font-family: 'GothamPro' !important;
+    background: #161E39 !important;
+    color: #b9e9ed !important;
+}
+
+
+/*Top Navigation Bar*/
+.navbar{
+    background-color: #101526;
+}
+
+.navbar .navbar-nav{
+    margin: auto;
+    vertical-align: middle;
+}
+
+.navbar .nav-item{
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white !important;
+}
+
+.navbar .nav-item:hover{
+    font-size: 20px;
+    color: #fff !important; 
+}
+
+section{
+    margin-top: -2px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+#skillRow{
+    padding: 80px 100px 10px 100px; /*top right bottom left*/
+}   
+
+/* Icons */
+
+.foxIcon{
+    max-width: 140px;
+}
+
+.skillIcon{
+    height: 120px;
+    transition: transform .3s; /* Animation */
+    margin-bottom: 10px;
+}
+
+.skillIcon:hover{
+    transform: scale(1.1);
+    cursor: url('images/blueCursor.svg'), auto;	
+}
+
+.skillCaption {
+    display: block;
+    font-size: 2em;
+}
+
+#skillRow{
+    padding: 80px 200px 10px 200px; /*top right bottom left*/
+
+}
+
+/*Introduction*/
+
+#introductionSection{
+    margin-top: -30px;
+    padding-top: 100px;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    background-color: #101526 !important;
+    background-image: url(images/treeBackground.svg);
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: repeat-x;
+}
+
+.introductionText{
+    text-align: center;
+}
+
+.sectionHeader{
+    font-size: 50px;
+}
+
+/*Skills*/ 
+
+#skillsSection{
+    position: relative;
+    background-image: url(images/desertBackground.svg);
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: repeat-x;
+    padding-bottom: 300px;
+}
+
+#skillsSection p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+#skill-row{
+    width: 70%;
+    display: inline-block;
+}
+
+/*Projects*/
+
+#projectsSection{
+    position: relative;
+    background: #273153;
+    background-image: url(images/fox_background_snow.svg);
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: repeat-x;
+    padding-bottom: 500px;
+}
+/*Art*/
+
+#artSection{
+    position: relative;
+    background: #ffffff;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: repeat-x;
+    padding-bottom: 500px;
+    color: #273153;
+}
+
+#art-row{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.artImage{
+    display: block;  
+    max-width: 400px;
+    transition: transform .3s; /* Animation */
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.artImage:hover{
+    transform: scale(1.1);
+    cursor: url('images/blueCursor.svg'), auto;	
+    box-shadow: none;
+}
+
+.artCaption{
+    display: block;
+    font-size: 2em;
+}
+
+.link{
+    color: #D97F4D;
+}
+.link:hover{
+    text-decoration: none;
+    color: #D97F4D;
+}
+
+
+
+
